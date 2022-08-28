@@ -12,21 +12,6 @@
     <!-- React, shared across React DOM, React NATIVE, etc -->
     <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
-    <script>
-        // create a class component called App
-        // each time you call this will return div with h1
-        // reusable component
-        const App = () => {
-            // createelement creates a new instance
-            return React.createElement(
-                "div",
-                {},
-                React.createElement("h1", {}, "Adopt Me!")
-            );
-        };
-
-        // put instance of react in root
-        ReactDOM.render(React.createElement(App), document.getElementById("root"))
-    </script>
+    <script src="./App.js"></script>
 </body>
 </html>
